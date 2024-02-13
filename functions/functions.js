@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
     luoNappi.addEventListener('click', generateJokerRow);
 
     function generateJokerRow() {
-        let newRow = document.createElement('tr');
+        let uusiRivi = document.createElement('tr');
         for (let i = 0; i < 7; i++) {
-            let randomNumber = Math.floor(Math.random() * 10);
-            let newCell = document.createElement('td');
-            newCell.textContent = randomNumber;
-            newRow.appendChild(newCell);
+            let randoomiNum = Math.floor(Math.random() * 10);
+            let Celli = document.createElement('td');
+            Celli.textContent = randoomiNum;
+            uusiRivi.appendChild(Celli);
         }
-        taulukko.appendChild(newRow);
+        taulukko.appendChild(uusiRivi);
     }
 });
