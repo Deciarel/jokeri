@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const luoNappi = document.querySelector('button');
-    const taulukko = document.querySelector('table');
+    let luoNappi = document.querySelector('button');
+    let taulukko = document.querySelector('table');
 
     luoNappi.addEventListener('click', generateJokerRow);
 

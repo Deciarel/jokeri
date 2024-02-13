@@ -2,3 +2,7 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+button {
+    padding: 14px 40px;
+    background-color: #00ddff; color: black;
+}
